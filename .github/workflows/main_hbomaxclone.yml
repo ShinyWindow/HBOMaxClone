@@ -8,6 +8,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+  
+  
+defaults:
+  run:
+    working-directory: my-app
 
 jobs:
   build:
