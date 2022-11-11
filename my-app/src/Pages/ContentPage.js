@@ -5,6 +5,7 @@ import logoLeft from "../Resources/Images/logoburnedinleft.png";
 import play from "../Resources/Images/play.png";
 import CategoryList from "../Components/CategoryList";
 import SimpleImageSlider from "react-simple-image-slider";
+import ContentHeader from "../Components/ContentHeader";
 
 export default function ContentPage() {
   const images = [
@@ -16,16 +17,14 @@ export default function ContentPage() {
     <>
       <div className="top-content-container">
         <div className="content-background"></div>
-        <Header></Header>
+        <div className=""></div>
+        <div className="my-padding">
+          <ContentHeader />
+        </div>
         <div className="trailer-container">
-          <a href="google.com">
-            <div className="trailer-background"></div>
-          </a>
-
+          <div className="trailer-background"></div>
           <div className="lol">
-            <div className="trailer-title">
-              <img style={{ width: "100%" }} src={logoLeft} />
-            </div>
+            <div className="trailer-title">SPIDER MAN NO WAY HOME</div>
             <div className="regular-line-height">
               Eddie Murphy goes inside Eddie Murphy in an Eddie Murphy comedy.
             </div>
