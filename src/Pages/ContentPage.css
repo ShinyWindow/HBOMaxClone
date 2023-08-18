@@ -4,19 +4,15 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  width: 100vw;
-  height: 100vh;
-  overflow: scroll;
   z-index: -1;
 }
 body {
-  height: 5000px;
-  user-select:none;
+  user-select: none;
 }
 
 .below-trailer-shadow {
-  position:absolute;
-  z-index:-1;
+  position: absolute;
+  z-index: -1;
   height: 100%;
   width: 100%;
   background-image: linear-gradient(
@@ -53,7 +49,7 @@ body {
   padding: 0px;
   position: relative;
   z-index: 10;
-  height:80vh;
+  height: 80vh;
 }
 
 .trailer-background {
@@ -157,11 +153,11 @@ body {
   justify-content: center;
 }
 
-.top-content-container{
-  margin-bottom:30px;
+.top-content-container {
+  margin-bottom: 30px;
 }
 
-.my-padding{
-  display:flex;
-  justify-content:center;
+.my-padding {
+  display: flex;
+  justify-content: center;
 }

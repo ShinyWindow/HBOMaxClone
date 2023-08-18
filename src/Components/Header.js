@@ -23,7 +23,7 @@ export default function Header() {
           </a>
         </div>
         <div className="margin-vertical-auto">
-          <a href="/">
+          <a href="./content">
             <img alt="hbo logo" className="hbo-logo-middle" src={hbologo} />
           </a>
         </div>

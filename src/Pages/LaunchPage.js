@@ -9,7 +9,7 @@ export default function LaunchPage() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<SignInPage />} />
         <Route path="/signin" element={<SignInPage />} />
         <Route path="/content" element={<NewContentPage />} />
       </Routes>

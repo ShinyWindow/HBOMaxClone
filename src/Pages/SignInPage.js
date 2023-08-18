@@ -11,7 +11,7 @@ export default function SignInPage() {
         <div className=" flex-center">
           <div className="signin-card">
             <div className="margin-bottom-8 average-signin-text">
-              Do you have an HBO Max Account?
+              Do you have an HBO Max Account? Dw, fake sign in for now.
             </div>
             <div>
               <div className="margin-bottom-8">
@@ -25,7 +25,7 @@ export default function SignInPage() {
               <input className="signin-option margin-bottom-8"></input>
             </div>
             <div className="flex signin-button-card-container">
-              <div className="signin-button-card">SIGN IN</div>{" "}
+              <a href="./content" className="signin-button-card">SIGN IN</a>{" "}
               <div className="forgot-password flex-center flex-dir-col">
                 Forgot Password?
               </div>
@@ -38,7 +38,7 @@ export default function SignInPage() {
             <div className='margin-bottom-8 average-signin-text'>
               View my personal HBO clone without access to real movies?
             </div>
-            <div className='view-clone-button'>VIEW HBO CLONE</div>
+            <a href="content" className='view-clone-button'>VIEW HBO CLONE</a>
           </div>
         </div>
       </div>
